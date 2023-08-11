@@ -6,8 +6,8 @@
 
 
 body{font-family:'Lucida Sans';
-overflow-x:"hidden";
-background: rgb(207, 198, 198);
+    background: rgb(207, 198, 198);
+/* overflow-x:"hidden"; */
 }
 
 
@@ -39,6 +39,7 @@ nav svg {
 
 .links{
     position:absolute;
+    font-family: 'Courier New', Courier, monospace;
     background: white;
     width: 100%;
     height: 100vh;
@@ -62,10 +63,13 @@ h2{
     line-height: 125%;
     font-family:"sans_bold";
     padding:1rem 0rem;
+    margin-left:1rem;
 }
 
 h3{
+    margin-left:1rem;
     font-size:1.5rem;
+    margin-bottom:1rem;
     font-family: "sans_reg";
 }
 
@@ -74,12 +78,26 @@ h3{
     align-items:self-start;
 }
 
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:1.2rem;
+    margin-right:3rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
 .logo h1{
     margin-left:0.5rem;
     font-family:"sans_reg";
-    /* font-size:1rem; */
 }
 
 .logo img {
     width:10rem;
+}
+
+div ul li{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-left:3rem;
+    font-family:"sans_reg";
 }
